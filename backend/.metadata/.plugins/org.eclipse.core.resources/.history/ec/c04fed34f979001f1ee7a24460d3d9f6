@@ -1,0 +1,14 @@
+package com.itb.lip2.agendamentus.service;
+
+import java.util.List;
+
+import com.itb.lip2.weggie.model.Agendamento;
+
+public interface AgendamentoService {
+
+    List<Agendamento> findAll();
+    Agendamento findbyId(Long id);
+    Agendamento saveAgentamento(Agendamento agendamento);
+
+
+}
